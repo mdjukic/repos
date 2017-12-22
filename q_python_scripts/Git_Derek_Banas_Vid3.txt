@@ -1,0 +1,40 @@
+
+#
+# Branching, Commits, HEAD, Checkout, Merge conflicts, Mergetool
+# Rebasing, Reset, Clean, and more
+#
+git checkout sets your HEAD, a pointer to the current working Branching
+
+- Create a Branch
+git branch fix20
+git checkout fix20
+
+alternatively, we can do this in one step, run:
+git checkout -b fix20
+
+-edit .gitignore file, say
+
+-switch over to master branch, run:
+git checkout master
+
+- push change to master branch, run:
+git push db fix20
+
+go to github, branch dbananas, and it should show 2 branches on tab
+
+- if you would want to get the fix20 branch, run:
+git checkout -b fix20 db/fix20  
+NOTE: I have renamed origin to db, in previous lesson
+otherwise, we would use:
+git checkout -b fix20 origin/fix20
+
+- To see all branches, run:
+git branch
+  fix20
+* master
+NOTE: this shows that we are pointing to the master branch.
+
+- To see all of the merged branches:
+git branch --merged
+
+
