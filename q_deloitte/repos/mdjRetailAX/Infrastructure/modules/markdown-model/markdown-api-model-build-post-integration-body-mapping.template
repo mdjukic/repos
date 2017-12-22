@@ -1,5 +1,0 @@
-#set($inputRoot = $input.path('$'))
-{
-  "Program": "model",
-  "ModelId" : $inputRoot.ModelId
-}

@@ -1,2 +1,0 @@
-<div *ngIf="showNoValueString; else displayNumber">{{ 'GRID.NO_VALUE_STRING' | translate }}</div>
-<ng-template #displayNumber><div>{{ params.value | localeDecimal:locale:'1.0-2' }}</div></ng-template>

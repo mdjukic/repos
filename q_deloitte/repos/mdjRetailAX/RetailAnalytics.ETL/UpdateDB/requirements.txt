@@ -1,4 +1,0 @@
-requests
-boto
-smart_open
-jsonschema
